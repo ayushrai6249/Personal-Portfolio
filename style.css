@@ -104,9 +104,71 @@ button:hover {
     width: 40%;
 }
 
+.blob {
+    height: 450px;
+    /* background-color: blue; */
+    position: absolute;
+    width: 500px;
+    top: 170px;
+    right: 100px;
+    border-radius: 63% 37% 48% 52% / 39% 46% 54% 61%;
+    background: linear-gradient(60deg, #063f66, #095a91, #0b74bb, #0e6fe6);
+    filter: drop-shadow(0, 0, 20px, lightgrey);
+    animation: blobAnimation 10s alternate infinite ease-in-out;
+
+}
+
+@keyframes blobAnimation {
+    0% {
+        border-radius: 32% 68% 59% 41% / 55% 72% 28% 45%;
+        rotate: 10deg;
+    }
+
+    20% {
+        border-radius: 32% 68% 59% 41% / 55% 72% 28% 45%;
+        rotate: 20deg;
+    }
+
+    30% {
+        border-radius: 68% 32% 39% 61% / 42% 52% 48% 58%;
+        rotate: -50deg;
+    }
+
+    50% {
+        border-radius: 68% 32% 79% 21% / 68% 36% 64% 32%;
+        rotate: 30deg;
+    }
+
+    70% {
+        border-radius: 67% 33% 70% 30% / 72% 42% 58% 28% ;
+        rotate: 30deg;
+    }
+
+    80% {
+        border-radius: 50% 50% 30% 70% / 50% 39% 61% 50%;
+        rotate: -30deg;
+    }
+
+    90% {
+        border-radius: 62% 38% 62% 38% / 35% 39% 61% 65%;
+        rotate: 30deg;
+    }
+
+    100% {
+        border-radius: 39% 61% 58% 42% / 64% 52% 48% 36%;
+        rotate: 10deg;
+    }
+}
+
+.rightSection img {
+    z-index: 3;
+    position: relative;
+}
+
 .leftSection {
     font-size: 3rem;
     font-weight: 600;
+    z-index: 2;
 }
 
 /* .rightSection img {
@@ -421,6 +483,18 @@ footer {
     .greyContact {
         color: #ffffffa1;
         font-size: 25px;
+    }
+
+    .blob {
+        height: 300px;
+        width: 300px;
+        top: 70px;
+        right: 40px;
+        border-radius: 63% 37% 48% 52% / 39% 46% 54% 61%;
+        background: linear-gradient(60deg, #063f66, #095a91, #0b74bb, #0e6fe6);
+        filter: drop-shadow(0, 0, 20px, lightgrey);
+        animation: blobAnimation 10s alternate infinite ease-in-out;
+
     }
 
 }
