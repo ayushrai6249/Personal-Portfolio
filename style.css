@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: #e5ebf7;
-
+    overflow-x: hidden;
 }
 
 main {
@@ -30,8 +32,9 @@ header .name {
     /* width: 280px; */
     position: relative;
     /* top: 8px; */
-    left: -100px;
+    left: -25px;
     font-weight: bolder;
+    font-family: 'Rouge Script', cursive;
 }
 
 nav {
@@ -533,6 +536,7 @@ footer {
         position: relative;
         top: 500px;
         opacity: 0.3;
+        
     }
 
     .blobAbout {
@@ -541,7 +545,7 @@ footer {
         position: absolute;
         left: 33px;
         opacity: 0.2;
-        top: 343px;
+        top: 450px;
         z-index: 5;
         border-radius: 63% 37% 48% 52% / 39% 46% 54% 61%;
         background: linear-gradient(60deg, #2c76a8, #166091, #2070a5, #063c7e);
@@ -607,7 +611,7 @@ footer {
     .blob {
         height: 300px;
         width: 300px;
-        top: 70px;
+        top: 130px;
         right: 70px;
         border-radius: 63% 37% 48% 52% / 39% 46% 54% 61%;
         background: linear-gradient(60deg, #063f66, #095a91, #0b74bb, #0e6fe6);

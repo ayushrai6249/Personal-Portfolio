@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" / media="screen and (min-width:600px)">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&family=Roboto:ital,wght@0,300;1,300;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -33,7 +35,7 @@
 
     <main>
         <section class="firstSection">
-            <div class="leftSection">
+            <div class="leftSection" data-aos="slide-right" data-aos-delay="50">
                 Hello, My self <span class="purple name"><b><i>Ayush Rai</i></b></span>
                 <br>
                 I am
@@ -60,7 +62,7 @@
                 <button type="button" class="button"><a href="#"><b>RESUME</b></a></button>
             </div>
             <div class="rightSection">
-                <img src="developer.png" alt="Developer Image">
+                <img src="developer.png" alt="Developer Image" data-aos="fade-up" data-aos-delay="100">
                 <div class="blob blobHero">
 
                 </div>
@@ -71,8 +73,8 @@
             <span class="grey"><b>What I have done so far?</b></span>
             <h1 class="purple">Academics</h1>
 
-            <div class="box">
-                <div class="vertical">
+            <div class="box" data-aos="slide-right" data-aos-delay="50">
+                <div class="vertical" data-aos="zoom-in-right" data-aos-delay="100">
                     <img class="imageTen" src="developer.png" alt="Class 10">
                     <div class="vertical-title">
                         <b> High School<br>(2019-20)</b>
@@ -82,7 +84,7 @@
                             </span><span class="marks">81.4%</span></b>
                     </div>
                 </div>
-                <div class="vertical">
+                <div class="vertical" data-aos="zoom-in-right" data-aos-delay="150">
                     <img class="imageTen" src="developer.png" alt="developer">
                     <div class="vertical-title">
                         <b>Intermediate<br>(2021-22)</b>
@@ -92,7 +94,7 @@
                             </span><span class="marks">87.6%</span></b>
                     </div>
                 </div>
-                <div class="vertical">
+                <div class="vertical" data-aos="zoom-in-right" data-aos-delay="200">
                     <img class="imageTen" src="developer.png" alt="developer">
                     <div class="vertical-title">
                         <b>Drop year<br>(2022-23)</b>
@@ -105,7 +107,7 @@
                                 (94.9%ile)</span></b>
                     </div>
                 </div>
-                <div class="vertical">
+                <div class="vertical" data-aos="zoom-in-right" data-aos-delay="250">
                     <img class="imageTen" src="developer.png" alt="developer">
                     <div class="vertical-title">
                         <b>Graduation<br>(2023-27)</b>
@@ -116,7 +118,7 @@
                         (CSE) at Madan Mohan Malaviya University of Technology.
                     </div>
                 </div>
-                <div class="vertical">
+                <div class="vertical" data-aos="zoom-in-right" data-aos-delay="300">
                     <img class="imageTen" src="developer.png" alt="developer">
                     <div class="vertical-title">
                         <b>To be continued...<br>(2027-)</b>
@@ -132,12 +134,12 @@
         <section class="thirdSection">
             <div class="about">
                 <div class="aboutImage">
-                    <img src="About.png" alt="about">
+                    <img src="About.png" alt="about" data-aos="fade-up" data-aos-delay="50">
                     <div class="blobAbout">
 
                     </div>
                 </div>
-                <div class="aboutText">
+                <div class="aboutText" data-aos="slide-left" data-aos-delay="50">
                     <h1>LET ME INTRODUCE MYSELF</h1>
                     <br><br>
                     <p>Welcome to my <span>PORTFOLIO!</span></p>
@@ -168,7 +170,7 @@
     </main>
 
     <footer>
-        <div class="footer">
+        <div class="footer" data-aos="fade" data-aos-delay="50">
             <div class="footer-first">
                 DEVELOPER: <span class="purple greyContact">Ayush Rai</span> <br>
                 PHONE: <span class="purple greyContact">+91 9336651494</span> <br>
@@ -200,6 +202,12 @@
             typeSpeed: 50,
         });
     </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({
+        duration:1200
+       });
+     </script>
 </body>
 
 </html>
