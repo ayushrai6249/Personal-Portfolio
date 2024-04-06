@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 body {
     color: #03295B;
     font-family: 'Poppins', sans-serif;
@@ -264,6 +266,12 @@ footer {
 }
 
 @media (max-width: 786px) {
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     nav ul {
         justify-content: center;
