@@ -141,7 +141,7 @@ hr {
 }
 
 .secondSection {
-    max-width: 80pw;
+    max-width: 80vw;
     margin: 70px;
     height: 84vh;
 }
@@ -230,11 +230,13 @@ hr {
 footer {
     background-color: #e5ebf7;
     height: 36vh;
+
 }
 
 .footer {
     display: flex;
     max-height: 32vh;
+
 }
 
 .footer-first {
@@ -310,13 +312,13 @@ footer {
     .social_media i {
         padding: 8px;
     }
-    
+
     .social_media i:hover {
         opacity: 1;
         transform: scale(1.2);
         /* text-shadow: 0 0 50px #fff, 0 0 60px rgb(157, 66, 242), 0 0 70px rgb(157, 66, 242), 0 0 80px rgb(157, 66, 242); */
     }
-    
+
     .social_media {
         left: 50px;
         top: 10px;
@@ -331,7 +333,86 @@ footer {
         left: 120px;
         top: 25px;
         font-size: 16px;
-    
+
     }
-    
+
+    .secondSection {
+        margin: 20px;
+        height: 200vh;
+    }
+
+    .secondSection .box {
+        margin: 80px 80px;
+        height: 170vh;
+        width: 2px;
+        flex-direction: column;
+    }
+
+    .secondSection .vertical {
+        height: 1px;
+        width: 70px;
+        margin: 130px 0px;
+    }
+
+
+    .imageTen {
+        width: 100px;
+        position: relative;
+        top: -40px;
+        left: -100px;
+    }
+
+    .vertical-title {
+        position: relative;
+        left: 80px;
+        top: -100px;
+        width: 150px;
+    }
+
+    .veritcal-desc {
+        position: relative;
+        top: 20px;
+        left: 80px;
+        width: 150px;
+        top: -100px;
+    }
+
+    footer {
+        background-color: #08162c;
+        height: 40vh;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-first {
+        position: relative;
+        left: 10px;
+        top: 25px;
+        font-size: 25px;
+        color: white;
+        font-weight: 400;
+    }
+
+    .footer-second {
+        position: relative;
+        left: 70px;
+        top: 120px;
+    }
+
+    .footer-third {
+        position: relative;
+        top: 130px;
+        left: 90px;
+        color: white;
+        font-weight: 400;
+    }
+
+    .greyContact {
+        color: #ffffffa1;
+        font-size: 25px;
+    }
+
 }
